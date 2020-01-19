@@ -1,0 +1,41 @@
+.ul-timers {
+  padding: 0;
+}
+.li-timer {
+  list-style: none;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.timer-title {
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-size: 36px;
+}
+
+.value,
+.label {
+  display: block;
+  text-align: center;
+}
+.value {
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  background-color: #8bbea5;
+  color: white;
+  border: 3px solid cadetblue;
+  border-radius: 10px;
+  padding: 5px 5px;
+  box-shadow: inset 0px 0px 10px rgba(240, 237, 92, 0.9);
+
+  text-shadow: 1px 1px 1px rgba(175, 24, 24, 0.5);
+}
+.label {
+  font-size: 10px;
+}
